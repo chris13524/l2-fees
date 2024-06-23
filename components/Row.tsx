@@ -23,7 +23,7 @@ const cardHeight = 600;
 
 const minimumFractionDigits = 4;
 const minimum = 1 / 10 ** minimumFractionDigits;
-
+// no-op
 const format = (num?: number) =>
   (num &&
     (num < minimum
